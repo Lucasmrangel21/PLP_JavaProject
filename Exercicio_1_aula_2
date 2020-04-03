@@ -1,0 +1,25 @@
+package plp_aula_java2;
+import java.util.Scanner
+/**
+ *
+ * @author Acer
+ */
+public class Exercicio_1_Aula_2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite um numero: ");
+        int num = teclado.nextInt();
+        
+        if (num > 0){
+            System.out.println("O numero é´positivo");
+        }
+        else{
+            System.out.println("O numero é negativo");
+        }
+    }
+    
+}
